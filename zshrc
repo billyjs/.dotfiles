@@ -106,7 +106,11 @@ export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
 zplug "plugins/git", from:oh-my-zsh
+
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
+
+export NVM_AUTO_USE=true
+zplug "lukechilds/zsh-nvm"
 
 # Load theme
 zplug 'rslavin/af-magic-dynamic', as:theme
