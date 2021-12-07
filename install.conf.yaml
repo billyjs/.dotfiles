@@ -3,5 +3,4 @@
 - link:
     ~/.bashrc: bashrc
     ~/.zshrc: zshrc
-
-
+    ~/.hushlogin: hushlogin
